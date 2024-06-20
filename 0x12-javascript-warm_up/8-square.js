@@ -6,6 +6,6 @@ if (isNaN(s)) {
   for (let v = 0; v < s; v++) {
     let r = '';
     for (let y = 0; y < s; y++) r += 'X';
-    console.log(row);
+    console.log(r);
   }
 }

@@ -20,8 +20,8 @@ if __name__ == '__main__':
 
     nState = State(name='California')
     nCity = City(name='San Francisco')
-    nState.cities.append(newCity)
+    nState.cities.append(nCity)
 
-    ses.add(newState)
-    ses.add(newCity)
+    ses.add(nState)
+    ses.add(nCity)
     ses.commit()
